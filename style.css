@@ -1,9 +1,12 @@
 *{
-    font-family: 'poppins', sans-serif;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+     
 }
 body{
     background: #080808;
     color: white;
+    overflow-x: hidden;
 }
 span{
     color: rgb(255, 1, 1);
@@ -52,6 +55,11 @@ html{
 .card-text{
     color: #ffffff;
 }
+.card:hover{
+    transform: scale(1.03);
+    box-shadow: 0 10px 20px rgba(255, 255, 255, 0.368);
+    transition: all 0.3s ease;
+}
 
 span a{
     text-decoration: none;
@@ -80,7 +88,7 @@ span a{
     border: 1px solid rgb(255, 1, 1);
     border-radius: 6px;
     padding: 14px 50px;
-    color: rgb(12, 12, 12);
+    color: rgb(255, 255, 255);
     text-decoration: none;
     transition: background 0.5s;
 }
